@@ -1,0 +1,36 @@
+@import "../../assets/styles/variables";
+footer{
+    &.footer-none{
+        background-color: none ;
+    }
+@media screen and (max-width:768px) {
+   position: absolute; 
+   bottom: 0;
+   left: 20rem;
+   width: 100%;
+}
+.footer-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12rem;
+    width: 100%;
+    
+
+}
+.footer-btn-end{
+    display: flex;
+    margin-top: 12rem;
+    justify-content: flex-end;
+    .btn-next{
+        font-family: $base-font-family;
+        font-size: $base-font-size;
+        font-weight: $font-weight-medium;
+        background-color:$Marine-blue ;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        margin-left: auto;
+        color: $white-000;
+    }
+    
+}
+}
