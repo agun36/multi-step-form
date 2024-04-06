@@ -1,0 +1,6 @@
+// Override default variables before the import
+@import "assets/styles/variables";
+
+// Import Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import 'assets/styles/custom'
