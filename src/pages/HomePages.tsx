@@ -5,7 +5,7 @@ import "./style.scss"
 import { Dispatch, SetStateAction, useState } from "react";
 
 import { useMediaQuery } from "react-responsive";
-import FooterSection from "../components/footer";
+import FooterSection from "@/components/footer/FooterSection";
 interface HomePagesProps {
     selectedPlans: string[];
     setSelectedPlans: Dispatch<SetStateAction<string[]>>;
